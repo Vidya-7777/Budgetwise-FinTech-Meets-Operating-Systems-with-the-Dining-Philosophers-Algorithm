@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BudgetWise - Allocate Funds</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Budget Allocation</h1>
+        <p><strong>Remaining Budget: ₹<span id="budget">0</span></strong></p>
+
+        <div id="categoriesContainer"></div>
+
+        <h2>📊 Budget Allocation:</h2>
+        <ul id="allocationList"></ul>
+
+        <button class="chart-btn" onclick="viewChart()">📊 View Chart</button>
+        <button class="reset-btn" onclick="resetBudget()">🔄 Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
